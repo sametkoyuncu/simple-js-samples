@@ -1,0 +1,84 @@
+<!--
+    Author: Samet Koyuncu
+    Coded: 15.9.2019
+-->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="m-5 px-5">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-8 mt-1 mx-auto">
+				<div class="card">
+					<div class="card-body">
+						<div id="basarili" class="alert alert-success d-none" role="alert">
+							Bilgileriniz kayıt edildi.
+						</div>
+					
+						<div id="hata" class="alert alert-danger mt-2 d-none" role="alert">
+							Lütfen hatalarınızı kontrol ediniz.<br>
+							<ul>
+								<!-- <li>Lütfen adınızı giriniz</li>
+								<li>Lütfen eposta giriniz</li>
+								<li>Lütfen eposta adresinizi düzgün giriniz.</li>
+								<li>Lütfen şehir seçiniz</li>
+								<li>Lütfen en az 20 kelimelik bir hakkımda yazısı yazınız.</li>
+								<li>Lütfen parola giriniz</li>
+								<li>Parolanız en az 7 karakter içermelidir.</li> -->
+							</ul>
+						</div>
+					
+						<form class="mt-3">
+					
+							<div class="form-group">
+								<input type="text" class="form-control" value="" id="adsoyad" placeholder="Ad Soyad">
+							</div>
+					
+							<div class="form-group">
+							
+								<select class="form-control" id="sehir" value="">
+								  <option value="">Şehir seçiniz</option>
+								  <option value="kocaeli">Kocaeli</option>
+								  <option value="istanbul">İstanbul</option>
+								  <option value="ankara">Ankara</option>
+								  <option value="izmir">İzmir</option>
+								</select>
+							</div>
+					
+							<div class="form-group">
+								<textarea class="form-control" id="hakkinda" rows="3" placeholder="Kendinizi Tanıtın"  value=""></textarea>
+							</div>
+					
+							<div class="form-group">
+								<input type="email" class="form-control" id="eposta" value="" placeholder="name@example.com">
+							</div>
+					
+							<div class="form-group">			
+								<input type="password" class="form-control" id="parola"  value="" placeholder="Parola">
+							</div>
+							<button type="button" id="btnKaydet" class="btn btn-primary">Kaydet</button>
+					
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-6 mt-5 footer">
+				<p class="text-center"><a href="https://www.instagram.com/sametkoyuncu_/">&nbsp;coded by:sametkoyuncu&nbsp;</a></p>
+			</div>
+		</div>
+	</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
