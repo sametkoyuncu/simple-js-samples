@@ -1,0 +1,1 @@
+# js-samples: add-sidebar-menu-item

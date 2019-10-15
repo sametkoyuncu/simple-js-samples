@@ -1,0 +1,53 @@
+/*
+    Author: Samet Koyuncu
+    Coded: 15.9.2019
+*/
+
+body {
+    background: linear-gradient(to right, #3a7bd5 0%, #00d2ff 100%);
+}
+
+.shadow {
+    border: 0px !important;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    background-color: #f7df1e !important;
+    color: black !important;
+    border-color: #f7df1e !important;
+}
+
+li {
+    border-left: 5px solid #f7df1e !important;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+li:hover {
+    background-color: #eaeaea;
+}
+
+/* footer area */
+
+a {
+    color: white;
+    transition: all 0.75s;
+    border: 1px solid #38ef7d;
+    border-bottom: 3px solid #38ef7d;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+a:hover {
+    background-color: #38ef7d;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
