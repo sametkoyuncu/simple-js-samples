@@ -1,3 +1,3 @@
 # js-samples: add-sidebar-menu-item
 
-![alt-text](https://www.dayininciftligi.com/githubImg/sidebar-menu-item2.png)
+![alt-text](https://raw.githubusercontent.com/sametkoyuncu/simple-js-samples/master/add-sidebar-menu-item/add-sidebar-menu-item.PNG)
