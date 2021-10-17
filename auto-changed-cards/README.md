@@ -1,3 +1,5 @@
-# js-samples: auto change card
-![alt-text](https://raw.githubusercontent.com/sametkoyuncu/js-samples/master/auto-change-cards/auto-change-cards.PNG)
+# js-samples: auto changed card
+
+![gorsel](https://raw.githubusercontent.com/sametkoyuncu/simple-js-samples/master/auto-changed-cards/auto-changed-cards.PNG)
+
 - 1000ms delay time

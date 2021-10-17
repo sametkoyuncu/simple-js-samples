@@ -1,3 +1,3 @@
-# js-samples: add-sidebar-menu-item
+# js-samples: sidebar-list
 
-![alt-text](https://raw.githubusercontent.com/sametkoyuncu/simple-js-samples/master/add-sidebar-menu-item/add-sidebar-menu-item.PNG)
+![gorsel](https://github.com/sametkoyuncu/simple-js-samples/blob/master/sidebar-list/sidebar-list.PNG)
